@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html >
+
+<head>
+    
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   
+    <title>加入DoTogether</title>
+
+        <style>
+           #logo
+            {
+                position: absolute;
+                top:2%;
+                width:50%;
+                left:27%;
+            }
+            
+            .myButton1
+            {
+                 height: 25px; 
+                position:absolute;
+                left:20%;
+            }
+            .myButton2
+            {
+                 height: 25px; 
+                position:absolute;
+                left:40%;
+            }
+            #box
+            {
+                width: 80%;
+                height: 80%;
+                color: black;         
+                padding: 5px 20px;
+                position: absolute;
+                left:15%;
+                top:20%;
+            }
+            
+                    
+            form{
+                margin-top: 60px;
+            }
+            h2{
+                margin-top: 0px;
+                
+            }
+            body{
+                background: url(addbg.png);         
+                background-size:100%;
+                background-repeat:no-repeat;
+            }
+           .file
+            {
+                position: relative;
+                display: inline-block;
+                background: #D0EEFF;
+                border: 1px solid #99D3F5;
+                border-radius: 4px;
+                padding: 4px 12px;
+                overflow: hidden;
+                color: #000000;
+                text-decoration: none;
+                text-indent: 0;
+                line-height: 15px;
+                font-family:Microsoft JhengHei;
+            }
+            .file input {
+                position: absolute;
+                font-size: 100px;
+                right: 0;
+                top: 0;
+                opacity: 0;
+            }
+            .file:hover {
+                background: #AADFFD;
+                border-color: #78C3F3;
+                color: #004974;
+                text-decoration: none;
+            }
+        
+            input
+            {
+            
+              height: 15px; 
+              position:relative;
+            }
+            
+            select
+            {
+                width: 100px;  
+                height: 25px; 
+                font-size: 15px;
+                
+            }
+           
+        </style>
+        
+</head>
+
+<body>
+
+    <a href="login_or_join.html"> <img src="加入.png" id="logo"></a>
+
+
+	
+
+    <h5 align='center'>        
+    <div id="box">
+    <form name="appendForm" method="post" action="addMem.php" class="textbox" enctype="multipart/form-data">
+
+         <div align="left">
+        <font face="微軟正黑體">姓名：</font>
+        <input  name="name" type="text" width="10">
+          <br><br>
+        <font face="微軟正黑體">帳號：</font>
+        <input name="mId" type="text" width="10"> 
+         <br><br>
+        <font face="微軟正黑體"> 密碼：</font>
+        <input name="pId" type="password" width="10">
+        <br><br>
+        <font face="微軟正黑體"> 性別：</font>
+        <label ><input type="radio" name="gender" value="男生" CHECKED >男生</label>
+        <label><input type="radio" name="gender" value="女生">女生</label>
+        <br><br>       
+        <font face="微軟正黑體"> 手機：</font>
+        <input name="phone" type="tel" width="10">
+          <br><br>
+        </div>
+      <font face="微軟正黑體">
+     <div align="left" id="area">地區：</font>
+      <select name="address" >
+            <option value="Taipei">台北</option>
+            <option value="Kaoshiung">高雄</option>
+      </select>    
+     </div>
+      <br>  
+       <div align="left">
+        <font face="微軟正黑體"> 生日：</font>
+        <input name="birth" type="date" width="10" >
+           <br><br>   
+        </div>
+        <div align="left" class="upload-img">
+         <font face="微軟正黑體"> 照片：</font>
+            <a href="javascript:;" class="file">選擇大頭貼       
+                 <input accept="image/*" type="file" name="photo">
+            </a>
+        </div>
+        <br>  
+        
+          <input class="myButton1" type="submit" value="送出">
+          <input class="myButton2" type="reset" value="重填">
+                                                         
+ </form>                                   
+     </h5>     
+</body>
+</html>

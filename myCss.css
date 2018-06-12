@@ -1,0 +1,93 @@
+#img_hr
+        {
+            position: fixed;            
+            bottom:7%;
+            width:100%; 
+        }
+        #img_0
+        {
+            position: fixed;            
+            bottom:0%;
+            left:0%;
+            width: 110%;
+
+        }
+        #img_1
+        {
+            position: fixed;            
+            bottom:1.8%;
+            left:5%;
+        }
+        #text_1
+        {
+            position: fixed;            
+            bottom:0.2%;
+            left:8%;
+            color: white;
+            font-size: 30px;
+        }
+        
+        #img_2
+        {
+            position: fixed;            
+            bottom:1.95%;
+            left:25%;
+        }
+         #text_2
+        {
+            position: fixed;            
+            bottom:0.2%;
+            left:24.5%;
+            color: white;
+            font-size: 30px;
+        }
+        
+        #img_3
+        {
+            position: fixed;            
+            width:15%;
+            bottom:1.6%;
+            right: 21%;
+        }
+         #text_3
+        {
+            position: fixed;            
+            bottom:0.2%;
+            right: 24%;
+            color: white;
+            font-size: 30px;
+        }
+        #img_4
+        {
+            position: fixed;            
+            width:15%;
+            bottom:1.6%;
+            right: 3%;
+        }
+        #text_4
+        {
+            position: fixed;            
+            bottom:0.2%;
+            right: 6%;
+            color: white;
+            font-size: 30px;
+        }
+        #img_5
+        {
+            position: fixed;            
+            bottom:-0.5%;
+            right:37%;
+        }
+      body{
+           
+                background-size:100%;
+                background-image: url("images/background.png");
+                background-repeat: no-repeat;
+            }
+   /* frameset
+    {
+         background-size:100%;
+                background-image: url("images/background2.png");
+                background-repeat: no-repeat;
+    }
+    */
